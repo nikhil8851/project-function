@@ -19,7 +19,7 @@ let arr = [
 
 
   }
- PrintDeveloperbyMap()
+
 
 
 
@@ -35,7 +35,7 @@ let arr = [
 
 
   }
-  PrintDeveloperbyForEach()
+
 
 
 
@@ -50,8 +50,7 @@ let arr = [
   
   }
 
-  addData()
-  
+
   function removeAdmin() {
     //Write your code here, just console.log
     arr = arr.filter((person) => person.profession !== "admin");
@@ -59,7 +58,7 @@ let arr = [
 
   }
 
-  removeAdmin()
+ 
   
   function concatenateArray() {
     //Write your code here, just console.log
@@ -69,4 +68,4 @@ let arr = [
   
   }
 
-  concatenateArray()
+  
