@@ -62,12 +62,12 @@ let arr = [
   
   function concatenateArray() {
     //Write your code here, just console.log
-    let newArr = [{ id: 5, name: "bob", age: "75", profession: "developer" }];
-    let newAr = [{ id: 5, name: "bo", age: "20", profession: "developer" }];
-    let newA = [{ id: 5, name: "boc", age: "28", profession: "developer" }];
-    arr = [...arr, ...newArr, ...newAr, ...newA];
+    let newArr = [{ id: 5, name: "bob", age: "95", profession: "developer" },
+      { id: 5, name: "bo", age: "20", profession: "developer" },
+      { id: 5, name: "boc", age: "27", profession: "developer" }
+    ];
+    arr = arr.concat(newArr);
     console.log(arr);
-  
   
   }
 
