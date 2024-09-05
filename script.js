@@ -65,10 +65,9 @@ let arr = [
     let newArr = [{ id: 5, name: "bob", age: "75", profession: "developer" }];
     let newAr = [{ id: 5, name: "bo", age: "20", profession: "developer" }];
     let newA = [{ id: 5, name: "boc", age: "28", profession: "developer" }];
-    arr = arr.concat(newArr);
-    arr = arr.concat(newAr);
-    arr = arr.concat(newA);
+    arr = [...arr, ...newArr, ...newAr, ...newA];
     console.log(arr);
+  
   
   }
 
